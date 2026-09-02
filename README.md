@@ -43,7 +43,7 @@ To develop a centralized caregiver management system that simplifies service ass
 ### 🔹 HR Manager
 - Assign caregivers to clients
 - Approve/reject leave requests
-- Manage caretaker schedules
+- Manage caregiver schedules
 - Track attendance
 - Handle complaints
 - Assign/remove high-priority status
