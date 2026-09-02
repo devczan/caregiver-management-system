@@ -6,7 +6,7 @@ A comprehensive web-based Caregiver Management System designed to connect **Clie
 
 ## 📌 Project Overview
 
-SmartCare is a web-based platform developed to streamline caretaker services such as:
+SmartCare is a web-based platform developed to streamline caregiver services such as:
 
 - 👵 Elder Care  
 - 👶 Babysitting  
@@ -15,7 +15,7 @@ SmartCare is a web-based platform developed to streamline caretaker services suc
 The system replaces manual scheduling, paper-based coordination, and phone-based communication with a centralized digital solution.
 
 It enables:
-- Efficient caretaker assignment  
+- Efficient caregiver assignment  
 - Leave tracking  
 - Complaint and feedback handling  
 - Service booking and payment management  
@@ -49,7 +49,7 @@ To develop a centralized caregiver management system that simplifies service ass
 - Assign/remove high-priority status
 - Generate service reports
 
-### 🔹 Caretaker
+### 🔹 caregiver
 - View & update profile
 - View assigned clients & schedules
 - Apply for leave
@@ -227,7 +227,7 @@ The project follows the MVC (Model-View-Controller) architecture for better scal
 
 - Mobile application version
 - Live chat integration
-- AI-based caretaker recommendation
+- AI-based caregiver recommendation
 - Multi-branch support
 - Advanced analytics dashboard
 
