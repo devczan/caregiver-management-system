@@ -1,6 +1,6 @@
-# 🏥 SmartCare – Caretaker Management System
+# 🏥 SmartCare – Caregiver Management System
 
-A comprehensive web-based Caretaker Management System designed to connect **Clients, Caretakers, HR Managers, and Admin** through a centralized digital platform.
+A comprehensive web-based Caregiver Management System designed to connect **Clients, Caregivers, HR Managers, and Admin** through a centralized digital platform.
 
 ---
 
@@ -16,7 +16,7 @@ The system replaces manual scheduling, paper-based coordination, and phone-based
 
 It enables:
 - Efficient caretaker assignment  
-- Leave and attendance tracking  
+- Leave tracking  
 - Complaint and feedback handling  
 - Service booking and payment management  
 - Real-time dashboards and reports  
@@ -25,14 +25,14 @@ It enables:
 
 ## 🎯 Project Goal
 
-To develop a centralized caretaker management system that simplifies service assignment, scheduling, leave handling, and user management while enhancing communication and transparency.
+To develop a centralized caregiver management system that simplifies service assignment, scheduling, leave handling, and user management while enhancing communication and transparency.
 
 ---
 
 ## 👥 User Roles & Functionalities
 
 ### 🔹 Admin
-- Manage HR, Caretakers, and Clients
+- Manage HR, Caregivers, and Clients
 - Manage service categories
 - Monitor payments and financial reports
 - View system-wide dashboard analytics
@@ -41,7 +41,7 @@ To develop a centralized caretaker management system that simplifies service ass
 - Generate reports
 
 ### 🔹 HR Manager
-- Assign caretakers to clients
+- Assign caregivers to clients
 - Approve/reject leave requests
 - Manage caretaker schedules
 - Track attendance
@@ -61,16 +61,16 @@ To develop a centralized caretaker management system that simplifies service ass
 
 ### 🔹 Client
 - Register & login
-- View available caretakers
+- View available caregivers
 - Filter by location
-- View caretaker profiles & ratings
+- View caregiver profiles & ratings
 - Book services
 - Make advance payment
 - View booking & payment history
 - Submit complaints
 - Give feedback & ratings
 - Cancel/reschedule booking
-- Change caretaker
+- Change caregiver
 
 ---
 
@@ -121,11 +121,10 @@ To develop a centralized caretaker management system that simplifies service ass
 ## 📊 Core Features
 
 - User Management
-- Caretaker Scheduling
+- Caregiver Scheduling
 - Leave Management
 - Complaint Management
 - Feedback & Rating System
-- Attendance Tracking
 - Service History Tracking
 - Priority Tagging
 - Reports & Dashboards
@@ -138,7 +137,7 @@ To develop a centralized caretaker management system that simplifies service ass
 
 ### ✔ In Scope
 - Web-based system
-- Single caretaker company
+- Single caregiver company
 - Four main user roles
 - Online payment tracking
 - Reporting dashboards
