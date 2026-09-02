@@ -53,7 +53,6 @@ To develop a centralized caregiver management system that simplifies service ass
 - View assigned clients & schedules
 - Apply for leave
 - View leave history/status
-- Mark attendance (check-in/check-out)
 - View feedback & ratings
 - Update availability
 - View notifications
