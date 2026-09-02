@@ -44,7 +44,6 @@ To develop a centralized caregiver management system that simplifies service ass
 - Assign caregivers to clients
 - Approve/reject leave requests
 - Manage caregiver schedules
-- Track attendance
 - Handle complaints
 - Assign/remove high-priority status
 - Generate service reports
