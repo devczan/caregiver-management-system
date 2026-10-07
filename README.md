@@ -160,23 +160,21 @@ To develop a centralized caregiver management system that simplifies service ass
 ### Setup Steps
 
 1. Clone the repository:
-   git clone https://github.com/your-username/smartcare.git
+   git clone https://github.com/devczan/caregiver-management-system.git
 
 2. Move the project folder to:
-   htdocs (XAMPP)
+   `htdocs/CMA` (XAMPP), matching the configured application URL.
 
-3. Create a database in phpMyAdmin:
-   smartcare_db
+3. Create a MySQL database named `smartcare1`.
 
-4. Import the provided SQL file.
+4. Import `database/smartcare (1).sql` into `smartcare1`.
 
-5. Configure database connection in:
-   config/database.php
+5. Configure the database connection using `DB_HOST`, `DB_USER`, `DB_PASS`, and `DB_NAME` environment variables if the defaults in `app/core/Database.php` do not match your local setup.
 
 6. Start Apache & MySQL from XAMPP.
 
 7. Open in browser:
-   http://localhost/smartcare
+   http://localhost/CMA/public/
 
 ---
 

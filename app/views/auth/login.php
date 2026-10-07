@@ -44,12 +44,7 @@ if (!defined('APPROOT')) {
                         id="loginEmail"
                         name="email"
                         required
-                        pattern="^[A-Za-z0-9._%+-]+@gmail\.com$"
-                        title="Please enter a valid Gmail address (example@gmail.com)."
                     >
-                    <small id="loginEmailError" style="display:none; color:#d32f2f; margin-top:6px;">
-                        Please enter a valid Gmail address (example@gmail.com).
-                    </small>
                 </div>
                 <div class="input-box">
                     <label>Password</label>
@@ -83,28 +78,8 @@ if (!defined('APPROOT')) {
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            const loginForm = document.getElementById('loginForm');
-            const loginEmail = document.getElementById('loginEmail');
-            const loginEmailError = document.getElementById('loginEmailError');
             const loginPassword = document.getElementById('loginPassword');
             const toggleLogin = document.getElementById('toggleLoginPassword');
-
-            const gmailRegex = /^[A-Za-z0-9._%+-]+@gmail\.com$/i;
-
-            function validateLoginEmail() {
-                const value = loginEmail.value.trim();
-                const isValid = gmailRegex.test(value);
-
-                if (!isValid) {
-                    loginEmail.setCustomValidity('Please enter a valid Gmail address (example@gmail.com).');
-                    loginEmailError.style.display = 'block';
-                } else {
-                    loginEmail.setCustomValidity('');
-                    loginEmailError.style.display = 'none';
-                }
-
-                return isValid;
-            }
 
             function validateLoginPassword() {
                 loginPassword.setCustomValidity('');
@@ -126,17 +101,7 @@ if (!defined('APPROOT')) {
                 }
             });
 
-            loginEmail.addEventListener('input', validateLoginEmail);
             loginPassword.addEventListener('input', validateLoginPassword);
-
-            loginForm.addEventListener('submit', function (event) {
-                const isEmailValid = validateLoginEmail();
-
-                if (!isEmailValid) {
-                    event.preventDefault();
-                    loginEmail.reportValidity();
-                }
-            });
         });
 
 

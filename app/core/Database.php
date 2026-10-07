@@ -4,10 +4,11 @@ class Database
     public $conn;
 
     public function __construct() {
-        $host = "localhost";
-        $user = "root";
-        $pass = "Thanuvenu";
-        $dbname = "smartcare1";
+        $host = getenv('DB_HOST') ?: "localhost";
+        $user = getenv('DB_USER') ?: "root";
+        $pass = getenv('DB_PASS');
+        $pass = $pass === false ? "Thanuvenu" : $pass;
+        $dbname = getenv('DB_NAME') ?: "smartcare1";
 
         $this->conn = new mysqli($host, $user, $pass, $dbname);
 

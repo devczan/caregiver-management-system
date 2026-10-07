@@ -1,5 +1,8 @@
 RewriteEngine On
 
+# Serve the application landing page for the project directory URL.
+RewriteRule ^$ public/index.php [L]
+
 # Don't process POST/PUT/DELETE requests that are not files/directories
 # Internally rewrite to public folder instead of redirecting (preserves POST data)
 RewriteCond %{REQUEST_URI} !^/public/
